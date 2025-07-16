@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-// You may need to use a library like react-native-dotenv or expo-constants for env vars
-const API_URL = 'http://localhost:5000';
+
+const API_URL = 'http://localhost:5001'; // Update if your backend runs elsewhere
 
 const api = axios.create({
   baseURL: API_URL
